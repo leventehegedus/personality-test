@@ -1,0 +1,17 @@
+.personality-quiz-container {
+  font-size: 16px;
+  line-height: 32px;
+  padding: 32px;
+
+  .question-container {
+    .answer {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      label {
+        cursor: pointer;
+      }
+    }
+  }
+}
